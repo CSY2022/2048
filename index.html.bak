@@ -81,7 +81,8 @@
     </p>
     <hr>
     <p>
-    来自<a href="http://gabrielecirulli.com">Gabriele Cirulli</a>的杰作
+    来自<a href="http://gabrielecirulli.com">Gabriele Cirulli</a>的杰作。以<a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a>为灵感，某种意义上与<a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer</a>相似。
+    </p>
   </div>
 
   <script src="js/bind_polyfill.js"></script>
