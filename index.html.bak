@@ -87,7 +87,7 @@
         function startTimer() {
             const startTime = localStorage.getItem('startTime');
             const now = new Date().getTime();
-            const twentyMinutes = 0 * 60 * 1000;
+            const twentyMinutes = 1 * 60 * 1000;
 
             // 如果没有开始时间，设置当前时间为开始时间
             if (!startTime) {
