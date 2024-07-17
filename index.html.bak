@@ -84,27 +84,9 @@
     来自 Gabriele Cirulli 的杰作
   </div>
   <script>
-        function startTimer() {
-            const startTime = localStorage.getItem('startTime');
-            const now = new Date().getTime();
-            const twentyMinutes = 0 * 60 * 1000;
-
-            // 如果没有开始时间，设置当前时间为开始时间
-            if (!startTime) {
-                localStorage.setItem('startTime', now);
-            } else {
-                const elapsedTime = now - startTime;
-                if (elapsedTime >= twentyMinutes) {
-                    window.location.href = 'break.html';
-                } else {
-                    setTimeout(function() {
-                        window.location.href = 'break.html';
-                    }, twentyMinutes - elapsedTime);
-                }
-            }
-        }
-  startTimer()
+    let worker = new Worker('./worker.js')
   </script>
+  <script src="js/worker.js"></script>
   <script src="js/bind_polyfill.js"></script>
   <script src="js/classlist_polyfill.js"></script>
   <script src="js/animframe_polyfill.js"></script>
